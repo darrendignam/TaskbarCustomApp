@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace SynergyServiceManager
+namespace TBCA
 {
     public partial class About : Form
     {

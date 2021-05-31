@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace SynergyServiceManager
+namespace TBCA
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace SynergyServiceManager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Instead of running a form, we run an ApplicationContext.
-            Application.Run(new SynergyServiceManagerContext());
+            Application.Run(new TaskbarCustomApp());
         }
     }
 }

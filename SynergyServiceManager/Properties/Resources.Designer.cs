@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SynergyServiceManager.Properties {
+namespace TBCA.Properties {
     using System;
     
     

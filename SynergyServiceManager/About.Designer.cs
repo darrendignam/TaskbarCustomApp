@@ -1,4 +1,4 @@
-﻿namespace SynergyServiceManager
+﻿namespace TBCA
 {
     partial class About
     {
@@ -37,7 +37,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::SynergyServiceManager.Properties.Resources.tickertape_black_transparent;
+            this.pictureBox1.Image = global::TBCA.Properties.Resources.tickertape_black_transparent;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(776, 88);
