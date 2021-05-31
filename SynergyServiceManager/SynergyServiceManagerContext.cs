@@ -37,6 +37,7 @@ namespace SynergyServiceManager
 
 
 
+
         void Exit(object sender, EventArgs e)
         {
             // We must manually tidy up and remove the icon before we exit.
