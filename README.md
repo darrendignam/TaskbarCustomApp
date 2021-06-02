@@ -17,7 +17,7 @@ Just run the EXE and it will produce a template CSV file in the same folder as t
 "Hello World","start cmd.exe /k echo Hello World"
 ```
 
-![Example Menu](https://raw.githubusercontent.com/darrendignam/TaskbarCustomApp/master/images/example.png)
+![Example Menu](/images/example.png)
 
 Two columns - the first is the text in the menu item, the second is the command.
 
