@@ -107,7 +107,6 @@
     <None Include="Resources\tickertape_black_transparent.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\s_mouse.ico" />
     <Content Include="AppIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

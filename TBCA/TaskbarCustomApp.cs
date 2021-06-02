@@ -15,7 +15,7 @@ namespace TBCA
             //Bit of setup
             notifyIcon.Icon = TBCA.Properties.Resources.AppIcon;
             notifyIcon.DoubleClick += new EventHandler(ShowAbout);
-            notifyIcon.Text = "Click Commander";
+            notifyIcon.Text = "Task Launcher";
             //notifyIcon.ContextMenu = new ContextMenu(new MenuItem[] { configMenuItem, exitMenuItem });
 
             notifyIcon.ContextMenu = new ContextMenu();
@@ -29,7 +29,8 @@ namespace TBCA
             {
                 using (StreamWriter sw = File.CreateText(path)) {
                     sw.WriteLine("\"Menu Item\", \"Shell Command\"");
-                    sw.WriteLine("\"Hello\", \"echo world\"");
+                    sw.WriteLine("\"CMD\", \"start cmd.exe\"");
+                    sw.WriteLine("\"Hello World\", \"start cmd.exe /k echo Hello World\"");
                 }
             }
                
