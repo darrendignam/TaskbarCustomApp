@@ -17,6 +17,8 @@ Just run the EXE and it will produce a template CSV file in the same folder as t
 "Hello World","start cmd.exe /k echo Hello World"
 ```
 
+![Example Menu](/images/example.png)
+
 Two columns - the first is the text in the menu item, the second is the command.
 
 Above you can see the example I use to quickly switch between single and dual monitors (my laptop has a quick key for this - but my desktop has not got this usability feature). Plus there is the ability to insert a seperator by enclosing a hyphen /minus sign "-" in the first position.
