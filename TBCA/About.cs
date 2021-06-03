@@ -59,6 +59,7 @@ namespace TBCA
             else
             {
                 regKey.SetValue("TBCA-Task-Launcher", false);
+                regKey.DeleteValue("TBCA-Task-Launcher");
             }
         }
     }
