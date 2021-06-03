@@ -86,9 +86,9 @@
             this.cbAutostart.AutoSize = true;
             this.cbAutostart.Location = new System.Drawing.Point(7, 317);
             this.cbAutostart.Name = "cbAutostart";
-            this.cbAutostart.Size = new System.Drawing.Size(174, 17);
+            this.cbAutostart.Size = new System.Drawing.Size(68, 17);
             this.cbAutostart.TabIndex = 4;
-            this.cbAutostart.Text = "Start program when user logs in";
+            this.cbAutostart.Text = "Autostart";
             this.cbAutostart.UseVisualStyleBackColor = true;
             this.cbAutostart.CheckedChanged += new System.EventHandler(this.cbAutostart_CheckedChanged);
             // 
